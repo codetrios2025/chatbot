@@ -1,0 +1,24 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Frontend build
+admin/dist/
+**/dist/
+
+# Environment files - never upload secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Archives
+*.zip
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
